@@ -1,58 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <meta name="description" content="Mantresh`s Resume" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mantresh`s Resume</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body class="bg-light bg-gradient">
-    <div class="container-fluid">
-      <header class="border-bottom text-center py-2">
-        <h2>Mantresh Kumar - 16+ Years .NET Full Stack</h2>
-      </header>
-      <div class="nav-scroller py-1 mb-3 border-bottom">
-        <nav class="nav nav-underline justify-content-between">
-          <a class="nav-item nav-link link-body-emphasis active" href="#"
-            >Profile</a
-          >
-          <a class="nav-item nav-link link-body-emphasis" href="#">U.S.</a>
-          <a class="nav-item nav-link link-body-emphasis" href="#"
-            >Technology</a
-          >
-          <a class="nav-item nav-link link-body-emphasis" href="#">Design</a>
-          <a class="nav-item nav-link link-body-emphasis" href="#">Culture</a>
-          <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
-          <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
-          <a class="nav-item nav-link link-body-emphasis" href="#">Opinion</a>
-          <a class="nav-item nav-link link-body-emphasis" href="#">Science</a>
-          <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
-          <a class="nav-item nav-link link-body-emphasis" href="#">Style</a>
-          <a class="nav-item nav-link link-body-emphasis" href="#">Travel</a>
-        </nav>
-      </div>
-    </div>
-    <main class="container-fluid"></main>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <style>
+        .custom-primary {
+            background-color: RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;
+            color: #fff !important;
+        }
+    </style>
+</head>
+
+<body class="bg-light bg-gradient mt-2">
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <div class="card text-bg-primary">
+                    <div class="card-header">
+                        <img src="https://avatars.githubusercontent.com/u/45257892?v=4" class=" img-fluid rounded"
+                            alt="Mantresh Kumar">
+                    </div>
+                    <div class="card-body">
+                        <h2>Mantresh Kumar</h2>
+                        <p class="text-light">Executive Manager - Technology
+                            <span>Deloitte USI</span>
+                            <small>mantreshk@gmail.com</small>
+                        </p>
+                        <blockquote class="blockquote">
+                            <p>When the going gets tough, the tough gets going.</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="accordion" id="accordianDetails">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button custom-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Introduction
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordianDetails">
+                            <div class="accordion-body">
+                                Currently managing <strong>Application Development, DevOps and Service Now
+                                    team</strong>. An <strong>Integrator and Pioneer</strong>, love solving problems and
+                                evolve with technology and team. <code>Technology Agnostic</code> I drive to solve
+                                problems doesn’t matter, if it’s a macro or building cohesive teams. And an Individual
+                                contributor in <code>.NET, MERN</code> stack with <code>Azure</code> & <code>AWS</code>
+                                DevSecOps.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed custom-primary" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Relevant Experience
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordianDetails">
+                            <div class="accordion-body">
+                                <strong>16+</strong>Extensive experience in full stack development in Microsoft
+                                technologies with
+                                Angular JS and now React.​ 14+ Domain experience in <strong>Banking and Financial
+                                    Services</strong>.​ Good
+                                experience in managing end 2 end deliveries with leading teams of 30+ Managers,
+                                Developers, Testers and Vendors.​
+                                <p>Sound understanding of Architectural patterns and system designs at an enterprise
+                                    level.​ Quick learner and implementer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed custom-primary" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Background and Interests/Professional Affiliations
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordianDetails">
+                            <div class="accordion-body">
+                                <ol class="list-group list-group-numbered">
+                                    <li class="list-group-item">Microsoft Certified Professional Developer and Azure Fundamentals.</li>
+                                    <li class="list-group-item">Hands on experience
+                                        in Full Stack Development using Microsoft Tech Stack, AngularJs, React. 7+ Years of
+                                        Presales, Distributed Systems, Dev Ops, Infrastructure and Application Architectural
+                                        experience.</li>
+                                    <li class="list-group-item">AWS Solution Architect – Associate certified. </li>
+                                    <li class="list-group-item">Managed Cross technology teams in Python, Power BI, Java, & Spring Boot. </li>
+                                  </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer class="py-2 text-center text-body-secondary bg-body-tertiary">
-      <p>
-        <small>
-          <a href="https://www.linkedin.com/in/mantresh/"
-            >Mantresh@linkedin</a
-          ></small
-        >
-      </p>
+        <p>
+            <small>
+                <a href="https://www.linkedin.com/in/mantresh/">Mantresh@linkedin</a></small>
+        </p>
     </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
